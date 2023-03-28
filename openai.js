@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const openai = require('openai');
-openai.apiKey = process.env.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;
+openai.apiKey = process.env.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;
 
 function generateImage() {
   const prompt = document.getElementById('prompt').value;
